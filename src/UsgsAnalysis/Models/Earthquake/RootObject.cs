@@ -11,7 +11,5 @@ namespace UsgsAnalysis.Models.Earthquake
         public Metadata metadata { get; set; }
         public List<Feature> features { get; set; }
         public List<double> bbox { get; set; }
-
-
     }
 }
